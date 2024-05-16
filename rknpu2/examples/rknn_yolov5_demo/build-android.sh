@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -e
-
+ANDROID_NDK_PATH="/home/iyf/2rknn/tools/android-ndk-r19c"
 if [[ -z ${ANDROID_NDK_PATH} ]];then
     echo "Please set ANDROID_NDK_PATH, such as export ANDROID_NDK_PATH=~/opts/ndk/android-ndk-r18b"
     echo "NDK Version r18, r19 is recommanded. Other version may cause build failure."
